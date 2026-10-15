@@ -1,5 +1,4 @@
-@"
-venv/
+﻿venv/
 .venv/
 __pycache__/
 *.py[cod]
@@ -9,4 +8,4 @@ data/
 *.csv
 *.pkl
 *.joblib
-"@ | Set-Content -Encoding utf8 .gitignore
+!models/logistic_regression_final_pipeline.joblib
